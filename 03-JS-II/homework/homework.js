@@ -194,14 +194,14 @@ if (numero < 2){
 if (numero === 2){
   return true;
 }
-  for (let i = 2; i < numero; i++) {
-  
-    if (numero % i === 0){
-    return false;
-    }
-  }
+for (let i = 2; i < numero; i++) {
 
-  return true;
+  if (numero % i === 0){
+  return false;
+  }
+}
+
+return true;
 }
 
 function esVerdadero(valor){
