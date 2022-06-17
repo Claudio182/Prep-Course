@@ -30,7 +30,8 @@ div {
     width: 600px;
 }
 .divClass a {
-    display: inline-block;
-    margin: 20px auto;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
     
 }
